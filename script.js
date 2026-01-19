@@ -22,7 +22,7 @@ searchForm.addEventListener("submit", function (e) {
 });
 
 async function fetchData(location) {
-  const url = `http://api.weatherapi.com/v1/current.json?key=35af7ff606db422880d141328231305&q=${location}&aqi=yes`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=60a2644b575445d9b7f61215261901&q=${location}&aqi=yes`;
   try {
     // we need to make a call to the api
     const res = await fetch(url);
